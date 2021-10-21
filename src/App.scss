@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=IM+Fell+Double+Pica:ital@0;1&display=swap');
+
+body {
+  background-image: url('./images/background.png');
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 16pt;
+}
+
+.App-header {
+  height: 50px;
+  background-color: #634931;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  li {
+    display: inline;
+    padding: 0 20px;
+    line-height: 50px;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Chelsea Market', cursive;
+}
+
+h4 {
+  font-family: 'IM Fell Double Pica', serif;
+  font-style: italic;
+}
+
+section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.introduction {
+  max-width: 1200px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  div {
+    padding: 0 10px 0 40px;
+  }
+  image, div {
+    flex: auto;
+    width: 50%;
+    display: inline-block;
+  }
+}
+
+.description {
+  display: flex;
+}
+
+.left {
+  float: left;
+  padding-right: 20px;
+}
+.right {
+  float: right;
+  padding-left: 20px;
+}
+
+.location {
+  background-image: url('./images/ballroom.jpg');
+  min-height: 50vh;
+  padding-top: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .text-box {
+    max-width: 900px;
+    background-color: rgba(255,255,255,0.75);
+    padding: 40px;
+    margin: auto;
+  }
+}
